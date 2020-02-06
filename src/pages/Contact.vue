@@ -24,18 +24,28 @@
             </info-section>
           </div>
           <div class="col-md-5 ml-auto mr-auto">
-            <form type="contact" raised header-classes="text-center">
+            <card type="contact" raised header-classes="text-center">
               <h4 slot="header" class="card-title">私たちに連絡する</h4>
               <form action="POST" data-netlify="true">
                 <div class="row">
                   <div class="col-md-12 pr-2">
                     <label>お名前</label>
-                    <fg-input placeholder="お名前..." name="name" addon-left-icon="now-ui-icons users_circle-08"/>
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <i class="input-group-text now-ui-icons users_circle-08"/>
+                      </div>
+                      <input aria-describedby="addon-right addon-left" placeholder="お名前..." name="name" class="form-control">
+                    </div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label>メールアドレス</label>
-                  <fg-input placeholder="メールアドレス..." name="email" addon-left-icon="now-ui-icons ui-1_email-85"/>
+                  <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                      <i class="input-group-text now-ui-icons ui-1_email-85"/>
+                    </div>
+                    <input aria-describedby="addon-right addon-left" placeholder="メールアドレス..." name="email" class="form-control">
+                  </div>
                 </div>
                 <div class="form-group">
                   <label>お問い合わせ</label>
@@ -49,7 +59,7 @@
                 </div>
               </form>
             </card>
-          </form></div>
+          </div>
         </div>
       </div>
     </div>

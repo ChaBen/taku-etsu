@@ -54,7 +54,7 @@
                 <div class="row">
                   <div class="col-md-6"/>
                   <div class="col-md-6">
-                    <n-button type="primary" round class="pull-right">送信する</n-button>
+                    <input type="submit" round class="btn pull-right btn-round" value="送信する">
                   </div>
                 </div>
               </form>

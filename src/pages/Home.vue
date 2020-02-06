@@ -64,7 +64,7 @@
                   style="background-image: url('img/work1.jpeg')" />
                 <h4 class="card-title category text-primary">廃フレコン Aランク</h4>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-6">
                 <!-- First image on the right side, above the article -->
                 <div
                   class="image-container image-right"

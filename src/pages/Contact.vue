@@ -24,36 +24,32 @@
             </info-section>
           </div>
           <div class="col-md-5 ml-auto mr-auto">
-            <card type="contact" raised header-classes="text-center">
+            <form type="contact" raised header-classes="text-center">
               <h4 slot="header" class="card-title">私たちに連絡する</h4>
-
-              <div class="row">
-                <div class="col-md-12 pr-2">
-                  <label>お名前</label>
-                  <fg-input
-                    placeholder="お名前..."
-                    addon-left-icon="now-ui-icons users_circle-08"/>
+              <form action="POST" data-netlify="true">
+                <div class="row">
+                  <div class="col-md-12 pr-2">
+                    <label>お名前</label>
+                    <fg-input placeholder="お名前..." name="name" addon-left-icon="now-ui-icons users_circle-08"/>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label>メールアドレス</label>
-                <fg-input
-                  placeholder="メールアドレス..."
-                  addon-left-icon="now-ui-icons ui-1_email-85"/>
-              </div>
-              <div class="form-group">
-                <label>お問い合わせ</label>
-                <textarea id="message" name="message" class="form-control" rows="6"/>
-              </div>
-              <div class="row">
-                <div class="col-md-6"/>
-                <div class="col-md-6">
-                  <n-button type="primary" round class="pull-right">送信する</n-button>
+                <div class="form-group">
+                  <label>メールアドレス</label>
+                  <fg-input placeholder="メールアドレス..." name="email" addon-left-icon="now-ui-icons ui-1_email-85"/>
                 </div>
-              </div>
-
+                <div class="form-group">
+                  <label>お問い合わせ</label>
+                  <textarea id="message" name="message" class="form-control" rows="6"/>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"/>
+                  <div class="col-md-6">
+                    <n-button type="primary" round class="pull-right">送信する</n-button>
+                  </div>
+                </div>
+              </form>
             </card>
-          </div>
+          </form></div>
         </div>
       </div>
     </div>

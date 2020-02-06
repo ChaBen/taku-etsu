@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './pages/Home.vue'
 import Works from './pages/Works.vue'
-import Machine from './pages/Machine.vue'
 import About from './pages/About.vue'
 import Contact from './pages/Contact.vue'
 import Components from './pages/Components.vue'
@@ -44,12 +43,6 @@ const router = new Router({
       path: '/works',
       name: 'works',
       components: { default: Works, header: MainNavbar, footer: MainFooter },
-      props: { header: { colorOnScroll: 450 }}
-    },
-    {
-      path: '/machine',
-      name: 'machine',
-      components: { default: Machine, header: MainNavbar, footer: MainFooter },
       props: { header: { colorOnScroll: 450 }}
     },
     {

@@ -50,6 +50,13 @@
             <div class="col-md-5 mr-auto">
               <info-section
                 type="danger"
+                icon="fal fa-user-tie"
+                title="代表取締役"
+                description="張 献"
+              />
+
+              <info-section
+                type="danger"
                 icon="fal fa-trademark"
                 title="商号"
                 description="タクエツ株式会社"
@@ -81,13 +88,6 @@
                 icon="fal fa-funnel-dollar"
                 title="資本金"
                 description="500万円"
-              />
-
-              <info-section
-                type="danger"
-                icon="fal fa-user-tie"
-                title="代表取締役"
-                description="張 献"
               />
 
               <info-section
@@ -146,4 +146,7 @@ export default {
 }
 </script>
 <style>
+.projects-5 {
+  padding-top: 0;
+}
 </style>

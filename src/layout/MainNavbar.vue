@@ -20,16 +20,10 @@
         <div id="example-navbar-primary" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <router-link class="nav-link" to="about" exact>About</router-link>
+              <router-link class="nav-link" to="about" exact>企業情報</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="works" exact>Works</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="machine" exact>Machine</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="contact" exact>Contact</router-link>
+              <router-link class="nav-link" to="contact" exact>私たちに連絡する</router-link>
             </li>
           </ul>
         </div>

@@ -6,53 +6,49 @@
         <div class="row">
           <div class="col-md-5">
             <h2 class="title">連絡する</h2>
-            <h4 class="description">もっと情報が必要ですか？ 他の人が私たちの製品について言っていることを確認してください。 彼らは購入にとても満足しています。</h4>
+            <h4 class="description">廃フレコンで困ってるお客様まずはお電話で問い合わせくださいませ。</h4>
             <info-section
               type="primary"
               icon="now-ui-icons location_pin">
-              <h4 class="info-title">オフィスで私たちを見つける</h4>
+              <h4 class="info-title">第一リサイクルセンター</h4>
               <p class="description">千葉県八街市八街い77-171</p>
             </info-section>
 
             <info-section
               type="primary"
               icon="now-ui-icons tech_mobile">
-              <h4 class="info-title">指輪をください</h4>
-              <p class="description">TEL: 043-312-0202
-                <br>FAX: 043-312-0201
-              </p>
+              <h4 class="info-title">お問い合わせ</h4>
+              <div class="description">TEL: <h2 class="phone">043-312-0202</h2>
+                <br>FAX: <h2 class="phone">043-312-0201</h2>
+              </div>
             </info-section>
           </div>
           <div class="col-md-5 ml-auto mr-auto">
             <card type="contact" raised header-classes="text-center">
-              <h4 slot="header" class="card-title">Contact Us</h4>
+              <h4 slot="header" class="card-title">私たちに連絡する</h4>
 
               <div class="row">
                 <div class="col-md-12 pr-2">
-                  <label>Name</label>
+                  <label>お名前</label>
                   <fg-input
-                    placeholder="Name..."
+                    placeholder="お名前..."
                     addon-left-icon="now-ui-icons users_circle-08"/>
                 </div>
               </div>
               <div class="form-group">
-                <label>Email address</label>
+                <label>メールアドレス</label>
                 <fg-input
-                  placeholder="Email Here..."
+                  placeholder="メールアドレス..."
                   addon-left-icon="now-ui-icons ui-1_email-85"/>
               </div>
               <div class="form-group">
-                <label>Your message</label>
+                <label>お問い合わせ</label>
                 <textarea id="message" name="message" class="form-control" rows="6"/>
               </div>
               <div class="row">
+                <div class="col-md-6"/>
                 <div class="col-md-6">
-                  <n-checkbox>
-                    I'm not a robot
-                  </n-checkbox>
-                </div>
-                <div class="col-md-6">
-                  <n-button type="primary" round class="pull-right">Send Message</n-button>
+                  <n-button type="primary" round class="pull-right">送信する</n-button>
                 </div>
               </div>
 
@@ -113,5 +109,10 @@ export default {
 <style>
 .contactus-2 {
   height: 600px;
+}
+.phone {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 </style>

@@ -7,7 +7,7 @@
       <nav>
         <ul>
           <li>
-            <router-link to="home">Takuetsu</router-link>
+            <router-link to="home" class="logo">Takuetsu</router-link>
           </li>
         </ul>
       </nav>
@@ -34,4 +34,7 @@ export default {
 }
 </script>
 <style>
+.logo {
+  font-size: 20px;
+}
 </style>

@@ -45,8 +45,8 @@
 
         .nav-link:not(.btn){
             text-transform: uppercase;
-            font-size: $font-size-mini;
-            padding: $padding-base-vertical $padding-base-horizontal;
+            font-size: 16px;
+            padding: 5px 20px;
             line-height: $line-height-nav-link;
 
             i.fa + p,
@@ -101,7 +101,7 @@
 
     .navbar-brand{
         text-transform: uppercase;
-        font-size: $font-size-small;
+        font-size: 20px;
         padding-top: $padding-base-vertical;
         padding-bottom: $padding-base-vertical;
         line-height: $line-height-nav-link;

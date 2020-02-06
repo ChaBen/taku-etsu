@@ -147,6 +147,6 @@ export default {
 </script>
 <style>
 .projects-5 {
-  padding-top: 0;
+  padding-top: 0 !important;
 }
 </style>

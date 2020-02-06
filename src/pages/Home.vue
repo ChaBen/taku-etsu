@@ -17,44 +17,24 @@
       <div class="team-2">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 ml-auto mr-auto text-center">
-              <h2 class="title">The Executive Team 2</h2>
-              <h4 class="description">This is the paragraph where you can write more details about your team.
-              Keep you user engaged by providing meaningful information.</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
               <card type="profile" plain>
                 <img
                   slot="image"
                   class="img img-raised rounded"
-                  src="img/work3.jpeg">
+                  src="img/material1.jpg">
 
-                <h4 class="card-title">フィルムペレット LDPE（N）</h4>
-                <h6 class="category">Account Manager</h6>
+                <h4 class="card-title">フレコン再生ペレット(黒)</h4>
               </card>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <card type="profile" plain>
                 <img
                   slot="image"
                   class="img img-raised rounded"
-                  src="img/work4.jpeg">
+                  src="img/material2.jpg">
 
-                <h4 class="card-title">フィルムペレットHDPE （N）</h4>
-                <h6 class="category">Aerospace Engineer</h6>
-              </card>
-            </div>
-            <div class="col-md-4">
-              <card type="profile" plain>
-                <img
-                  slot="image"
-                  class="img img-raised rounded"
-                  src="img/work5.jpeg">
-
-                <h4 class="card-title">キャップペレット（N）</h4>
-                <h6 class="category">Photographer</h6>
+                <h4 class="card-title">フレコン再生ペレット（雑色)</h4>
               </card>
             </div>
           </div>
@@ -65,8 +45,15 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
-              <h6 class="category text-muted">Our work</h6>
-              <h2 class="title">Some of Our Awesome Projects - 3</h2>
+              <h2 class="title">廃フレコン</h2>
+              <ul class="card-list">
+                <li>1. 様々の種類のフレコンが混在している</li>
+                <li>2. つり用の太いヒモが一部ついている</li>
+                <li>3. 内袋が一部はいっている</li>
+                <li>4. ゴミ、残留物が微量に入って いる</li>
+                <li>5. 異臭がないこと</li>
+                <li>6. 目立つ汚れがないこと</li>
+              </ul>
             </div>
           </div>
           <div class="section-story-overview">
@@ -75,26 +62,14 @@
                 <div
                   class="image-container image-left"
                   style="background-image: url('img/work1.jpeg')" />
-                <h6 class="category text-primary">Design</h6>
-                <h4 class="card-title">廃フレコン Aランク</h4>
-                <p>
-                  Amber Lewis’s interior design blog takes you inside the creative workings of her Los
-                  Angeles–based studio. Keep an eye on this website for an industry insider’s point of
-                  view.
-                </p>
+                <h4 class="card-title category text-primary">廃フレコン Aランク</h4>
               </div>
               <div class="col-md-5">
                 <!-- First image on the right side, above the article -->
                 <div
                   class="image-container image-right"
                   style="background-image: url('img/work2.jpeg')"/>
-                <h6 class="category text-primary">Design</h6>
-                <h4 class="card-title">LDPE 低密度ポリエチレン</h4>
-                <p>
-                  Amber Lewis’s interior design blog takes you inside the creative workings of her Los
-                  Angeles–based studio. Keep an eye on this website for an industry insider’s point of
-                  view.
-                </p>
+                <h4 class="card-title category text-primary">廃フレコンBランク</h4>
               </div>
             </div>
           </div>
@@ -133,4 +108,22 @@ export default {
 }
 </script>
 <style>
+.team-2 {
+  padding-top: 0 !important;
+}
+h2.title {
+  margin-bottom: 40px !important;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 20px 0 0 20px;
+  padding: 0;
+  font-size: 1.2em;
+}
+.card-list > li {
+  width: 50%;
+  text-align: left;
+}
 </style>

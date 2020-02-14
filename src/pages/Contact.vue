@@ -23,43 +23,6 @@
               </div>
             </info-section>
           </div>
-          <div class="col-md-5 ml-auto mr-auto">
-            <card type="contact" raised header-classes="text-center">
-              <h4 slot="header" class="card-title">私たちに連絡する</h4>
-              <form action="POST" data-netlify="true">
-                <div class="row">
-                  <div class="col-md-12 pr-2">
-                    <label>お名前</label>
-                    <div class="form-group input-group">
-                      <div class="input-group-prepend">
-                        <i class="input-group-text now-ui-icons users_circle-08"/>
-                      </div>
-                      <input aria-describedby="addon-right addon-left" placeholder="お名前..." name="name" class="form-control">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label>メールアドレス</label>
-                  <div class="form-group input-group">
-                    <div class="input-group-prepend">
-                      <i class="input-group-text now-ui-icons ui-1_email-85"/>
-                    </div>
-                    <input aria-describedby="addon-right addon-left" placeholder="メールアドレス..." name="email" class="form-control">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label>お問い合わせ</label>
-                  <textarea id="message" name="message" class="form-control" rows="6"/>
-                </div>
-                <div class="row">
-                  <div class="col-md-6"/>
-                  <div class="col-md-6">
-                    <input type="submit" round class="btn pull-right btn-round" value="送信する">
-                  </div>
-                </div>
-              </form>
-            </card>
-          </div>
         </div>
       </div>
     </div>

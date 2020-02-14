@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"/>
+        style="background-image: url('img/bg6.jpg')"/>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
@@ -12,35 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="section">
-
-      <div class="team-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <card type="profile" plain>
-                <img
-                  slot="image"
-                  class="img img-raised rounded"
-                  src="img/material1.jpg">
-
-                <h4 class="card-title">フレコン再生ペレット(黒)</h4>
-              </card>
-            </div>
-            <div class="col-md-6">
-              <card type="profile" plain>
-                <img
-                  slot="image"
-                  class="img img-raised rounded"
-                  src="img/material2.jpg">
-
-                <h4 class="card-title">フレコン再生ペレット（雑色)</h4>
-              </card>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div class="section" style="padding: 0;">
       <div class="projects-3" data-background-color="black">
         <div class="container">
           <div class="row">
@@ -71,6 +43,33 @@
                   style="background-image: url('img/work2.jpeg')"/>
                 <h4 class="card-title category text-primary">廃フレコンBランク</h4>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <card type="profile" plain>
+                <img
+                  slot="image"
+                  class="img img-raised rounded"
+                  src="img/material1.jpg">
+
+                <h4 class="card-title">フレコン再生ペレット(黒)</h4>
+              </card>
+            </div>
+            <div class="col-md-6">
+              <card type="profile" plain>
+                <img
+                  slot="image"
+                  class="img img-raised rounded"
+                  src="img/material2.jpg">
+
+                <h4 class="card-title">フレコン再生ペレット（雑色)</h4>
+              </card>
             </div>
           </div>
         </div>

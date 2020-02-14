@@ -7,97 +7,77 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h1 class="title">廃フレコンバックお持ちの方ご相談ください</h1>
+            <h1 class="title">設備</h1>
           </div>
         </div>
       </div>
     </div>
     <div class="section">
-
-      <div class="team-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto text-center">
-              <h2 class="title">The Executive Team 2</h2>
-              <h4 class="description">This is the paragraph where you can write more details about your team.
-              Keep you user engaged by providing meaningful information.</h4>
-            </div>
+      <div class="container">
+        <div class="title">
+          <h2>粉砕洗浄ライン</h2>
+        </div>
+        <!--     *********    PLAIN BLOG CARDS      *********      -->
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <card type="blog" plain>
+              <img slot="image" class="img rounded img-raised" src="img/machine1.jpeg">
+              <div class="card-body" style="padding: 0;">
+                <h3 class="card-title" style="margin: 0;">
+                  <a href="#nuk">粉砕機</a>
+                </h3>
+              </div>
+            </card>
           </div>
-          <div class="row">
-            <div class="col-md-4">
-              <card type="profile" plain>
-                <img
-                  slot="image"
-                  class="img img-raised rounded"
-                  src="img/work3.jpeg">
-
-                <h4 class="card-title">フィルムペレット LDPE（N）</h4>
-                <h6 class="category">Account Manager</h6>
-              </card>
-            </div>
-            <div class="col-md-4">
-              <card type="profile" plain>
-                <img
-                  slot="image"
-                  class="img img-raised rounded"
-                  src="img/work4.jpeg">
-
-                <h4 class="card-title">フィルムペレットHDPE （N）</h4>
-                <h6 class="category">Aerospace Engineer</h6>
-              </card>
-            </div>
-            <div class="col-md-4">
-              <card type="profile" plain>
-                <img
-                  slot="image"
-                  class="img img-raised rounded"
-                  src="img/work5.jpeg">
-
-                <h4 class="card-title">キャップペレット（N）</h4>
-                <h6 class="category">Photographer</h6>
-              </card>
-            </div>
+          <div class="col-md-6 col-lg-4">
+            <card type="blog" plain>
+              <img slot="image" class="img rounded img-raised" src="img/machine2.jpeg">
+              <div class="card-body" style="padding: 0;">
+                <h3 class="card-title" style="margin: 0;">
+                  <a href="#nuk">スクーリュ</a>
+                </h3>
+              </div>
+            </card>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <card type="blog" plain>
+              <img slot="image" class="img rounded img-raised" src="img/machine3.jpeg">
+              <div class="card-body" style="padding: 0;">
+                <h3 class="card-title" style="margin: 0;">
+                  <a href="#nuk">10m水槽Uタン式</a>
+                </h3>
+              </div>
+            </card>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <card type="blog" plain>
+              <img slot="image" class="img rounded img-raised" src="img/machine4.jpeg">
+              <div class="card-body" style="padding: 0;">
+                <h3 class="card-title" style="margin: 0;">
+                  <a href="#nuk">高速摩擦洗浄機</a>
+                </h3>
+              </div>
+            </card>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <card type="blog" plain>
+              <img slot="image" class="img rounded img-raised" src="img/machine5.jpeg">
+              <div class="card-body" style="padding: 0;">
+                <h3 class="card-title" style="margin: 0;">
+                  <a href="#nuk">8m水槽</a>
+                </h3>
+              </div>
+            </card>
           </div>
         </div>
-      </div>
 
-      <div class="projects-3" data-background-color="black">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto text-center">
-              <h6 class="category text-muted">Our work</h6>
-              <h2 class="title">Some of Our Awesome Projects - 3</h2>
-            </div>
-          </div>
-          <div class="section-story-overview">
-            <div class="row">
-              <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/work1.jpeg')" />
-                <h6 class="category text-primary">Design</h6>
-                <h4 class="card-title">廃フレコン Aランク</h4>
-                <p>
-                  Amber Lewis’s interior design blog takes you inside the creative workings of her Los
-                  Angeles–based studio. Keep an eye on this website for an industry insider’s point of
-                  view.
-                </p>
-              </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/work2.jpeg')"/>
-                <h6 class="category text-primary">Design</h6>
-                <h4 class="card-title">LDPE 低密度ポリエチレン</h4>
-                <p>
-                  Amber Lewis’s interior design blog takes you inside the creative workings of her Los
-                  Angeles–based studio. Keep an eye on this website for an industry insider’s point of
-                  view.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="title">
+          <h2>押出機1号機</h2>
+          <img slot="image" class="img rounded img-raised" src="img/jixie1.jpeg">
+        </div>
+        <div class="title" style="margin-top: 20px;">
+          <h2>押出機2号機</h2>
+          <img slot="image" class="img rounded img-raised" src="img/jixie2.jpeg">
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"/>
+        style="background-image: url('img/work_bg.jpeg')"/>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
